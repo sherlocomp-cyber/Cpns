@@ -40,5 +40,8 @@ Baca bagian **Status** di bawah, kerjakan butir yang belum dicentang, dan push t
 - [x] SKB profesional: nahwu paket 1 dan 2 (16), sharf paket 1, sharf paket 2 (16: mizan, fi'il mazid, amr, mu'tal, jamak taksir, isim alat, dengan `lg`), mufradat dan tarakib (16), metode dan keterampilan (15)
 - [ ] Verifikasi Pages aktif (Settings → Pages → Source: GitHub Actions) dan uji di peramban
 - [ ] TIU: figural/pola, verbal paket 2
-- [ ] SKB profesional: balaghah dasar, qira'ah dengan teks Arab, istima', imla', kisi-kisi Kemenag
+- [x] SKB profesional: balaghah dasar paket 1 `arab-balaghah-1` (18: tasybih, isti'arah, majaz mursal dan aqli, kinayah, jinas, thibaq, muqabalah, saj', dengan `lg`)
+- [x] SKB profesional: qira'ah paket 1 `arab-qiraah-1` (18: enam teks Arab berharakat, ide pokok, makna kata, isi teks, sebab-akibat, dengan `lg`)
+- [x] SKB profesional: imla' paket 1 `arab-imla-1` (18: hamzah wasl dan qatha', kursi hamzah, ta marbuthah dan maftuhah, alif maqshurah, tanwin, huruf tidak bersambung, dengan `lg`)
+- [ ] SKB profesional: istima', kisi-kisi Kemenag
 - [ ] Opsi tambahan: mode latihan per subtopik
