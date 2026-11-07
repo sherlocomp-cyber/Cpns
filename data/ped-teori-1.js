@@ -132,7 +132,7 @@ window.CPNS_DATA["ped-teori-1"] = {
       sub: "Keselamatan sekolah",
       q: "Guru mengetahui seorang siswa dirundung teman sekelasnya. Langkah yang paling tepat adalah ....",
       o: ["Membiarkan karena itu urusan anak-anak", "Segera melindungi korban, menindak sesuai aturan sekolah, dan melibatkan orang tua serta pihak terkait", "Menyuruh korban membalas", "Menunggu korban melapor ke kepala sekolah", "Memindahkan korban ke kelas lain tanpa menangani pelaku"],
-      s: undefined,
+      a: 1,
       p: "Perundungan harus ditangani cepat: lindungi korban, tangani pelaku secara mendidik sesuai aturan, libatkan orang tua dan pihak sekolah, serta lakukan pemantauan lanjutan."
     },
     {
