@@ -18,6 +18,9 @@ window.CPNS_MANIFEST = [
   { id: "arab-nahwu-2", file: "data/arab-nahwu-2.js", kat: "PROFESIONAL", judul: "SKB Profesional Bahasa Arab – Nahwu Paket 2 (I'rab dan Tarkib)", sub: "Nahwu" },
   { id: "arab-sharf-1", file: "data/arab-sharf-1.js", kat: "PROFESIONAL", judul: "SKB Profesional Bahasa Arab – Sharf Paket 1", sub: "Sharf" },
   { id: "arab-sharf-2", file: "data/arab-sharf-2.js", kat: "PROFESIONAL", judul: "SKB Profesional Bahasa Arab – Sharf Paket 2 (Tashrif, Mizan, dan Fi'il Mazid)", sub: "Sharf" },
+  { id: "arab-balaghah-1", file: "data/arab-balaghah-1.js", kat: "PROFESIONAL", judul: "SKB Profesional Bahasa Arab – Balaghah Dasar Paket 1 (Tasybih, Isti'arah, Majaz, Kinayah, Badi')", sub: "Balaghah" },
+  { id: "arab-qiraah-1", file: "data/arab-qiraah-1.js", kat: "PROFESIONAL", judul: "SKB Profesional Bahasa Arab – Qira'ah Paket 1 (Memahami Teks Arab)", sub: "Qira'ah" },
+  { id: "arab-imla-1", file: "data/arab-imla-1.js", kat: "PROFESIONAL", judul: "SKB Profesional Bahasa Arab – Imla' Paket 1 (Hamzah, Ta Marbuthah, Alif Maqshurah)", sub: "Imla'" },
   { id: "arab-mufradat-1", file: "data/arab-mufradat-1.js", kat: "PROFESIONAL", judul: "SKB Profesional Bahasa Arab – Mufradat dan Tarakib Dasar Paket 1", sub: "Mufradat" },
   { id: "arab-metode-1", file: "data/arab-metode-1.js", kat: "PROFESIONAL", judul: "SKB Profesional Bahasa Arab – Metode dan Keterampilan Berbahasa Paket 1", sub: "Metode dan keterampilan" }
 ];
