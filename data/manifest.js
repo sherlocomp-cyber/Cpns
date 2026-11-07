@@ -15,6 +15,7 @@ window.CPNS_MANIFEST = [
   { id: "arab-nahwu-1", file: "data/arab-nahwu-1.js", kat: "PROFESIONAL", judul: "SKB Profesional Bahasa Arab – Nahwu Paket 1", sub: "Nahwu" },
   { id: "arab-nahwu-2", file: "data/arab-nahwu-2.js", kat: "PROFESIONAL", judul: "SKB Profesional Bahasa Arab – Nahwu Paket 2 (I'rab dan Tarkib)", sub: "Nahwu" },
   { id: "arab-sharf-1", file: "data/arab-sharf-1.js", kat: "PROFESIONAL", judul: "SKB Profesional Bahasa Arab – Sharf Paket 1", sub: "Sharf" },
+  { id: "arab-sharf-2", file: "data/arab-sharf-2.js", kat: "PROFESIONAL", judul: "SKB Profesional Bahasa Arab – Sharf Paket 2 (Tashrif, Mizan, dan Fi'il Mazid)", sub: "Sharf" },
   { id: "arab-mufradat-1", file: "data/arab-mufradat-1.js", kat: "PROFESIONAL", judul: "SKB Profesional Bahasa Arab – Mufradat dan Tarakib Dasar Paket 1", sub: "Mufradat" },
   { id: "arab-metode-1", file: "data/arab-metode-1.js", kat: "PROFESIONAL", judul: "SKB Profesional Bahasa Arab – Metode dan Keterampilan Berbahasa Paket 1", sub: "Metode dan keterampilan" }
 ];
