@@ -1,0 +1,16 @@
+/* Penjelasan interaktif: langkah penyelesaian yang dibuka oleh pengguna */
+.steps{margin-top:10px;border-top:1px dashed var(--line);padding-top:8px}
+.steps summary{cursor:pointer;font-weight:600;color:var(--blue);padding:6px 0;list-style:none;display:flex;align-items:center;gap:8px}
+.steps summary::-webkit-details-marker{display:none}
+.steps summary::before{content:"";width:8px;height:8px;border-right:2px solid var(--blue);border-bottom:2px solid var(--blue);transform:rotate(-45deg);transition:transform .15s ease;flex:none}
+.steps[open] summary::before{transform:rotate(45deg)}
+.steps ol{margin:6px 0 4px;padding-left:0;list-style:none;counter-reset:langkah}
+.steps li{counter-increment:langkah;position:relative;padding:6px 0 6px 38px;max-width:72ch}
+.steps li::before{content:counter(langkah);position:absolute;left:0;top:6px;width:26px;height:26px;border-radius:50%;background:var(--sel);color:var(--navy);font-weight:700;font-size:.85rem;display:grid;place-items:center}
+.steps[open] li{animation:langkah-masuk .18s ease both}
+.steps[open] li:nth-child(2){animation-delay:.05s}
+.steps[open] li:nth-child(3){animation-delay:.1s}
+.steps[open] li:nth-child(4){animation-delay:.15s}
+.steps[open] li:nth-child(n+5){animation-delay:.2s}
+@keyframes langkah-masuk{from{opacity:0;transform:translateY(-3px)}to{opacity:1;transform:none}}
+@media(prefers-reduced-motion:reduce){.steps summary::before{transition:none}.steps[open] li{animation:none}}
