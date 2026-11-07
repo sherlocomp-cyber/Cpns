@@ -35,11 +35,11 @@ Baca bagian **Status** di bawah, kerjakan butir yang belum dicentang, dan push t
 - [x] Kerangka aplikasi, workflow Pages, manifest
 - [x] TWK: Pancasila/UUD 1945 (23), NKRI/Bahasa Indonesia (paket 1), nasionalisme/integritas/bahasa (18)
 - [x] TIU: numerik paket 1, numerik paket 2 (18, dengan langkah `lg`), verbal (20), penalaran dan logika (18, dengan langkah)
-- [x] TKP: pelayanan publik (paket 1), jejaring/sosial budaya/TIK/anti radikalisme/integritas (18)
+- [x] TKP: pelayanan publik (paket 1), jejaring/sosial budaya/TIK/anti radikalisme/integritas (18), paket 3 `tkp-pelayanan-2` (18, situasi guru dan sekolah, pembahasan skor tiap pilihan)
 - [x] SKB pedagogik: paket 1, paket 2 (16: kurikulum merdeka, asesmen, diferensiasi, inklusi, etika guru, dengan langkah `lg`)
 - [x] SKB profesional: nahwu paket 1 dan 2 (16), sharf paket 1, sharf paket 2 (16: mizan, fi'il mazid, amr, mu'tal, jamak taksir, isim alat, dengan `lg`), mufradat dan tarakib (16), metode dan keterampilan (15)
 - [ ] Verifikasi Pages aktif (Settings → Pages → Source: GitHub Actions) dan uji di peramban
 - [ ] TIU: figural/pola, verbal paket 2
-- [ ] TKP paket 3 (pelayanan, profesionalisme) dan TWK paket 3 (UUD pasal-pasal, sejarah)
+- [ ] TWK paket 3 (UUD pasal-pasal, sejarah)
 - [ ] SKB profesional: balaghah dasar, qira'ah dengan teks Arab, istima', imla', kisi-kisi Kemenag
 - [ ] Opsi tambahan: mode latihan per subtopik
