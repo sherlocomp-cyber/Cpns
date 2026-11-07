@@ -60,7 +60,8 @@
         if (!ok) { st.invalid++; return; }
         (st.bank[m.kat] = st.bank[m.kat] || []).push({
           id: m.id + '#' + i, kat: m.kat, sub: x.sub || m.sub || '', paket: m.judul,
-          ctx: x.ctx || '', q: x.q, o: x.o, a: x.a, s: x.s, p: x.p || ''
+          ctx: x.ctx || '', q: x.q, o: x.o, a: x.a, s: x.s, p: x.p || '',
+          lg: (x.lg && x.lg.length) ? x.lg : null
         });
       });
     });
@@ -155,6 +156,14 @@
     return h + '</div>';
   }
 
+  /* langkah penyelesaian: bisa dibuka satu per satu */
+  function stepsHtml(q) {
+    if (!q.lg || !q.lg.length) return '';
+    var h = '<details class="steps"><summary>Lihat langkah penyelesaian (' + q.lg.length + ' langkah)</summary><ol>';
+    q.lg.forEach(function (s) { h += '<li>' + fmt(s) + '</li>'; });
+    return h + '</ol></details>';
+  }
+
   function feedbackHtml(q, ans) {
     var good = S.isCorrect(q, ans), cls, head;
     if (q.kat === 'TKP') {
@@ -165,7 +174,7 @@
       cls = good ? 'ok' : 'bad';
       head = good ? 'Benar' : 'Belum tepat. Jawaban yang benar: ' + LETTERS[q.a];
     }
-    return '<div class="fb ' + cls + '"><h4>' + esc(head) + '</h4><p>' + (q.p ? fmt(q.p) : 'Pembahasan belum tersedia untuk soal ini.') + '</p></div>';
+    return '<div class="fb ' + cls + '"><h4>' + esc(head) + '</h4><p>' + (q.p ? fmt(q.p) : 'Pembahasan belum tersedia untuk soal ini.') + '</p>' + stepsHtml(q) + '</div>';
   }
 
   function gridHtml(e) {
@@ -215,7 +224,7 @@
       });
       h += '</tbody></table></section>';
     }
-    h += '</main><p class="foot">Situs latihan mandiri, bukan situs resmi BKN atau Kemenag. Soal disusun sendiri mengikuti kisi-kisi dan bentuk soal ujian. Ambang batas SKD yang dipakai: TWK 65, TIU 80, TKP 166; periksa pengumuman resmi tiap tahun karena angkanya bisa berubah.</p>';
+    h += '</main><p class="foot">Situs latihan mandiri, bukan situs resmi BKN atau Kemenag. Soal disusun sendiri mengikuti kisi-kisi dan bentuk soal ujian. Ambang batas SKD yang dipakai: TWK 65, TIU 80, TKP 166 (acuan seleksi sebelumnya; angka resmi CPNS 2026 belum diumumkan, periksa pengumuman resmi di sscasn.bkn.go.id).</p>';
     return h;
   }
 
@@ -256,7 +265,7 @@
       h += '<article class="rev ' + st2 + '"><div class="qhead"><b>No. ' + (i + 1) + (a == null ? ' · belum dijawab' : '') + '</b><span class="tag">' + esc(q.kat) + (q.sub ? ' · ' + esc(q.sub) : '') + '</span></div>';
       if (q.ctx) h += '<div class="ctx">' + fmt(q.ctx) + '</div>';
       h += '<p class="qtext">' + fmt(q.q) + '</p>' + optsHtml(q, a, 'show');
-      h += '<div class="fb"><h4>Pembahasan</h4><p>' + (q.p ? fmt(q.p) : 'Pembahasan belum tersedia untuk soal ini.') + '</p></div></article>';
+      h += '<div class="fb"><h4>Pembahasan</h4><p>' + (q.p ? fmt(q.p) : 'Pembahasan belum tersedia untuk soal ini.') + '</p>' + stepsHtml(q) + '</div></article>';
     });
     if (!shown) h += '<p class="note">Tidak ada soal untuk filter ini.</p>';
     return h;
