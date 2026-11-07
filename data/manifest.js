@@ -23,6 +23,7 @@ window.CPNS_MANIFEST = [
   { id: "arab-balaghah-1", file: "data/arab-balaghah-1.js", kat: "PROFESIONAL", judul: "SKB Profesional Bahasa Arab – Balaghah Dasar Paket 1 (Tasybih, Isti'arah, Majaz, Kinayah, Badi')", sub: "Balaghah" },
   { id: "arab-qiraah-1", file: "data/arab-qiraah-1.js", kat: "PROFESIONAL", judul: "SKB Profesional Bahasa Arab – Qira'ah Paket 1 (Memahami Teks Arab)", sub: "Qira'ah" },
   { id: "arab-imla-1", file: "data/arab-imla-1.js", kat: "PROFESIONAL", judul: "SKB Profesional Bahasa Arab – Imla' Paket 1 (Hamzah, Ta Marbuthah, Alif Maqshurah)", sub: "Imla'" },
+  { id: "arab-istima-1", file: "data/arab-istima-1.js", kat: "PROFESIONAL", judul: "SKB Profesional Bahasa Arab – Istima' Paket 1 (Menyimak Transkrip: Perkenalan, Jual Beli, Jadwal, Pengumuman, Kesehatan)", sub: "Istima'" },
   { id: "arab-mufradat-1", file: "data/arab-mufradat-1.js", kat: "PROFESIONAL", judul: "SKB Profesional Bahasa Arab – Mufradat dan Tarakib Dasar Paket 1", sub: "Mufradat" },
   { id: "arab-metode-1", file: "data/arab-metode-1.js", kat: "PROFESIONAL", judul: "SKB Profesional Bahasa Arab – Metode dan Keterampilan Berbahasa Paket 1", sub: "Metode dan keterampilan" }
 ];
