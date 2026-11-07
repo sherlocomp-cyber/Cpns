@@ -10,6 +10,7 @@ window.CPNS_MANIFEST = [
   { id: "tiu-verbal-1", file: "data/tiu-verbal-1.js", kat: "TIU", judul: "TIU Verbal – Paket 1", sub: "Verbal" },
   { id: "tiu-verbal-2", file: "data/tiu-verbal-2.js", kat: "TIU", judul: "TIU Verbal – Paket 2 (Sinonim, Antonim, Analogi, Kata Baku, dengan langkah)", sub: "Verbal" },
   { id: "tiu-logika-1", file: "data/tiu-logika-1.js", kat: "TIU", judul: "TIU Penalaran dan Logika – Paket 1", sub: "Penalaran dan logika" },
+  { id: "tiu-figural-1", file: "data/tiu-figural-1.js", kat: "TIU", judul: "TIU Figural dan Pola – Paket 1 (pola simbol, rotasi, pola gambar bertambah, sandi simbol, dengan langkah)", sub: "Figural dan pola" },
   { id: "tkp-pelayanan-1", file: "data/tkp-pelayanan-1.js", kat: "TKP", judul: "TKP Pelayanan Publik dan Profesionalisme – Paket 1", sub: "Pelayanan publik dan profesionalisme" },
   { id: "tkp-jejaring-1", file: "data/tkp-jejaring-1.js", kat: "TKP", judul: "TKP Jejaring Kerja, Sosial Budaya, TIK, Anti Radikalisme, dan Integritas – Paket 1", sub: "Jejaring, sosial budaya, TIK, integritas" },
   { id: "tkp-pelayanan-2", file: "data/tkp-pelayanan-2.js", kat: "TKP", judul: "TKP Pelayanan Publik dan Profesionalisme – Paket 3 (situasi guru dan sekolah)", sub: "Pelayanan publik dan profesionalisme" },
