@@ -44,5 +44,7 @@ Baca bagian **Status** di bawah, kerjakan butir yang belum dicentang, dan push t
 - [x] SKB profesional: balaghah dasar paket 1 `arab-balaghah-1` (18: tasybih, isti'arah, majaz mursal dan aqli, kinayah, jinas, thibaq, muqabalah, saj', dengan `lg`)
 - [x] SKB profesional: qira'ah paket 1 `arab-qiraah-1` (18: enam teks Arab berharakat, ide pokok, makna kata, isi teks, sebab-akibat, dengan `lg`)
 - [x] SKB profesional: imla' paket 1 `arab-imla-1` (18: hamzah wasl dan qatha', kursi hamzah, ta marbuthah dan maftuhah, alif maqshurah, tanwin, huruf tidak bersambung, dengan `lg`)
-- [ ] SKB profesional: istima', kisi-kisi Kemenag
+- [x] SKB profesional: istima' paket 1 `arab-istima-1` (15: lima transkrip pendek, soal detail, angka dan harga, jadwal, pengumuman, dengan `lg`; berbasis transkrip di field `ctx` karena belum ada audio)
+- [ ] SKB profesional: kisi-kisi Kemenag
+- [ ] Opsi tambahan: mode audio untuk istima' (misalnya pembacaan teks `ctx` lewat speechSynthesis berbahasa Arab)
 - [ ] Opsi tambahan: mode latihan per subtopik
