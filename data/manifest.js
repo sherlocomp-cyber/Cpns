@@ -4,6 +4,7 @@ window.CPNS_MANIFEST = [
   { id: "twk-pancasila-1", file: "data/twk-pancasila-1.js", kat: "TWK", judul: "TWK Pancasila dan UUD 1945 – Paket 1", sub: "Pancasila dan UUD 1945" },
   { id: "twk-nkri-1", file: "data/twk-nkri-1.js", kat: "TWK", judul: "TWK NKRI, Bhinneka Tunggal Ika, Bela Negara, Bahasa Indonesia – Paket 1", sub: "NKRI dan Bahasa Indonesia" },
   { id: "twk-integritas-1", file: "data/twk-integritas-1.js", kat: "TWK", judul: "TWK Nasionalisme, Integritas, Bela Negara, dan Bahasa Indonesia – Paket 1", sub: "Nasionalisme, integritas, bahasa" },
+  { id: "twk-uud-sejarah-3", file: "data/twk-uud-sejarah-3.js", kat: "TWK", judul: "TWK UUD 1945 Pasal-Pasal dan Sejarah Pergerakan Nasional – Paket 3", sub: "UUD 1945 dan sejarah" },
   { id: "tiu-numerik-1", file: "data/tiu-numerik-1.js", kat: "TIU", judul: "TIU Numerik – Paket 1", sub: "Numerik" },
   { id: "tiu-numerik-2", file: "data/tiu-numerik-2.js", kat: "TIU", judul: "TIU Numerik – Paket 2 (dengan langkah penyelesaian)", sub: "Numerik" },
   { id: "tiu-verbal-1", file: "data/tiu-verbal-1.js", kat: "TIU", judul: "TIU Verbal – Paket 1", sub: "Verbal" },
