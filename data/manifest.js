@@ -8,6 +8,7 @@ window.CPNS_MANIFEST = [
   { id: "tiu-numerik-1", file: "data/tiu-numerik-1.js", kat: "TIU", judul: "TIU Numerik – Paket 1", sub: "Numerik" },
   { id: "tiu-numerik-2", file: "data/tiu-numerik-2.js", kat: "TIU", judul: "TIU Numerik – Paket 2 (dengan langkah penyelesaian)", sub: "Numerik" },
   { id: "tiu-verbal-1", file: "data/tiu-verbal-1.js", kat: "TIU", judul: "TIU Verbal – Paket 1", sub: "Verbal" },
+  { id: "tiu-verbal-2", file: "data/tiu-verbal-2.js", kat: "TIU", judul: "TIU Verbal – Paket 2 (Sinonim, Antonim, Analogi, Kata Baku, dengan langkah)", sub: "Verbal" },
   { id: "tiu-logika-1", file: "data/tiu-logika-1.js", kat: "TIU", judul: "TIU Penalaran dan Logika – Paket 1", sub: "Penalaran dan logika" },
   { id: "tkp-pelayanan-1", file: "data/tkp-pelayanan-1.js", kat: "TKP", judul: "TKP Pelayanan Publik dan Profesionalisme – Paket 1", sub: "Pelayanan publik dan profesionalisme" },
   { id: "tkp-jejaring-1", file: "data/tkp-jejaring-1.js", kat: "TKP", judul: "TKP Jejaring Kerja, Sosial Budaya, TIK, Anti Radikalisme, dan Integritas – Paket 1", sub: "Jejaring, sosial budaya, TIK, integritas" },
