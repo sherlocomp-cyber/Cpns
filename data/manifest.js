@@ -7,5 +7,6 @@ window.CPNS_MANIFEST = [
   { id: "tkp-pelayanan-1", file: "data/tkp-pelayanan-1.js", kat: "TKP", judul: "TKP Pelayanan Publik dan Profesionalisme – Paket 1", sub: "Pelayanan publik dan profesionalisme" },
   { id: "ped-teori-1", file: "data/ped-teori-1.js", kat: "PEDAGOGIK", judul: "SKB Pedagogik – Teori Belajar, Asesmen, dan Pengelolaan Kelas Paket 1", sub: "Pedagogik" },
   { id: "arab-nahwu-1", file: "data/arab-nahwu-1.js", kat: "PROFESIONAL", judul: "SKB Profesional Bahasa Arab – Nahwu Paket 1", sub: "Nahwu" },
-  { id: "arab-sharf-1", file: "data/arab-sharf-1.js", kat: "PROFESIONAL", judul: "SKB Profesional Bahasa Arab – Sharf Paket 1", sub: "Sharf" }
+  { id: "arab-sharf-1", file: "data/arab-sharf-1.js", kat: "PROFESIONAL", judul: "SKB Profesional Bahasa Arab – Sharf Paket 1", sub: "Sharf" },
+  { id: "arab-metode-1", file: "data/arab-metode-1.js", kat: "PROFESIONAL", judul: "SKB Profesional Bahasa Arab – Metode dan Keterampilan Berbahasa Paket 1", sub: "Metode dan keterampilan" }
 ];
