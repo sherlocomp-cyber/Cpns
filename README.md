@@ -40,7 +40,7 @@ Baca bagian **Status** di bawah, kerjakan butir yang belum dicentang, dan push t
 - [x] SKB profesional: nahwu paket 1 dan 2 (16), sharf paket 1, sharf paket 2 (16: mizan, fi'il mazid, amr, mu'tal, jamak taksir, isim alat, dengan `lg`), mufradat dan tarakib (16), metode dan keterampilan (15)
 - [ ] Verifikasi Pages aktif (Settings → Pages → Source: GitHub Actions) dan uji di peramban
 - [x] TIU: verbal paket 2 `tiu-verbal-2` (18: sinonim, antonim, analogi, kata baku, dengan `lg`)
-- [ ] TIU: figural/pola
+- [x] TIU: figural/pola paket 1 `tiu-figural-1` (18: pola simbol, rotasi, pola gambar bertambah, pencerminan, sandi simbol, dengan `lg`; berbasis simbol teks karena format soal belum mendukung gambar)
 - [x] SKB profesional: balaghah dasar paket 1 `arab-balaghah-1` (18: tasybih, isti'arah, majaz mursal dan aqli, kinayah, jinas, thibaq, muqabalah, saj', dengan `lg`)
 - [x] SKB profesional: qira'ah paket 1 `arab-qiraah-1` (18: enam teks Arab berharakat, ide pokok, makna kata, isi teks, sebab-akibat, dengan `lg`)
 - [x] SKB profesional: imla' paket 1 `arab-imla-1` (18: hamzah wasl dan qatha', kursi hamzah, ta marbuthah dan maftuhah, alif maqshurah, tanwin, huruf tidak bersambung, dengan `lg`)
